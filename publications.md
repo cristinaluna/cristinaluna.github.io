@@ -198,7 +198,7 @@ title: Publications
 
 **Academic Profiles:**
 - **ORCID:** [0000-0002-4781-1965](https://orcid.org/0000-0002-4781-1965)
-- **ResearchGate:** [Cristina Luna Santos](https://www.researchgate.net/profile/Cristina-Luna-Santos)
+- **ResearchGate:** [Cristina Luna Santos](https://www.researchgate.net/profile/Cristina-Luna-10)
 - **Web of Science ResearcherID:** [LVD-5164-2024](https://www.webofscience.com/wos/author/record/LVD-5164-2024)
 - **Scopus Author ID:** [58722202700](http://www.scopus.com/inward/authorDetails.url?authorID=58722202700&partnerID=MN8TOARS)
 
