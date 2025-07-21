@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Cristina Luna 🚀
-*Planetary Robotics Project Manager | Off-Earth Anthropologist | Professional Space Explorer*
+*Planetary Robotics | Off-Earth Anthropologist *
 
 ---
 
