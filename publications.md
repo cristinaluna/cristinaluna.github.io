@@ -41,6 +41,9 @@ title: Publications
 **Luna, C., et al.** (2024). [Breadboarding the European Moon Rover System: discussion and results of the analogue field test campaign](https://doi.org/10.1109/iSpaRo60631.2024.10687700). *2024 International Conference on Space Robotics (iSpaRo)*, Luxembourg, pp. 145-150.  
 **Status:** Published | **Access:** IEEE Xplore
 
+**Luna, C., et al.** (2024). [Enabling Cost-Effective Lunar Exploration by Leveraging Flexible and Modular Rover Designs](http://dx.doi.org/10.52202/078357-0035). *75th International Astronautical Congress*, Milan, Italy.  
+**Status:** Published | **Access:** IAF Database
+
 ### 2022
 
 **Luna, C.** (2022). [Por qué tu coño te parece feo: Una aproximación antiestética](https://doi.org/10.17561/rae.v22.6155). *Antropología Experimental*, 22(1), 91-117.  
@@ -52,22 +55,20 @@ title: Publications
 
 ### 2025 (Accepted)
 
+**11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
+*July 2025, Universidad de Cantabria, Santander, España*
+- **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
+- **Luna, C.** "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas"
+
 **Advanced Space Technologies in Robotics and Automation (ASTRA 2025)**  
-*October 2025, Leiden, The Netherlands*
+*2025, Leiden, The Netherlands*
 - **Luna, C., et al.** "AI-Enabled Capabilities to Facilitate Next-Generation Rover Surface Operations"
 - **Luna, C., et al.** "The DISTANT design for Remote Transmission and Steering Systems for Planetary Robotics"
 - **Luna, C., et al.** "Ground-based Autonomous Rover Demonstrator Design for Exploration: The GALEON Project"
 
 **Advances de la Geomorfología española 2025**  
-*September 2025, Oviedo, España*
+*2025, España*
 - **Luna, C., et al.** "Geomorphological Characterisation of Drainage Networks in Terra Cimmeria: Paleohydrological Implications for the Transition to Nepenthes Mensae"
-
-### 2025 
-
-**11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
-*July 2025, Universidad de Cantabria, Santander, España*
-- **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
-- **Luna, C.** "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas"
 
 **Lunar and Planetary Science Congress**  
 *March 2025, The Woodlands, TX, USA*
@@ -91,8 +92,9 @@ title: Publications
 **iSpaRo - International Conference on Space Robotics**  
 *June 2024, Luxembourg*
 - **Breadboarding the European Moon Rover System: Discussion and Results of the Analogue field Test Campaign**
+- **RAPID & FASTNAV Projects: High-Speed Semi-Autonomous Rovers Enabling High Return Planetary Missions**
 
-**Congres de Ingeniería Espacial 2024**  
+**Space Resources Week 2024**  
 *June 2024, Madrid, Spain*
 - **Flexibilidad y Modularidad en los Futuros Rovers Lunares: Las claves de una exploración lunar eficiente y rentable**
 
@@ -104,13 +106,13 @@ title: Publications
 
 **ASTRA - Symposium on Advanced Space Technologies in Robotics and Automation**  
 *October 2023, Leiden, Netherlands*
-- **Luna, C., et al.** "CISRU: a robotics software suite to enable complex rover-rover and astronaut-rover interaction"
-- **Luna, C., et al.** "The European Moon Rover System: a modular multipurpose rover for future complex lunar missions"
+- **Romero-Azpitarte, S., et al.** [CISRU: a robotics software suite to enable complex rover-rover and astronaut-rover interaction](http://dx.doi.org/10.48550/arXiv.2311.03122)
+- **Luna, C., et al.** [The European Moon Rover System: a modular multipurpose rover for future complex lunar missions](http://dx.doi.org/10.48550/arXiv.2311.03136)
 
 **International Astronautical Congress 2023**  
 *October 2023, Baku, Azerbaijan*
-- **Luna, C., et al.** "Modularity in lunar exploration: European Moon Rover System Pre-Phase A design and field test campaign results"
-- **Luna, C., et al.** "Enabling In-Situ Resources Utilisation by leveraging collaborative robotics and astronaut-robot interaction"
+- **Luna, C., et al.** [Modularity for Lunar Exploration: European Moon Rover System Pre-Phase A Design and Field Test Campaign Results](http://dx.doi.org/10.48550/arXiv.2311.03098)
+- **Romero-Azpitarte, S., et al.** [Enabling in-situ resources utilisation by leveraging collaborative robotics and astronaut-robot interaction](http://dx.doi.org/10.48550/arXiv.2311.03146)
 
 **Extra-terrestrial ethnographies. Fieldwork for the new space age**  
 *September 2023, London, United Kingdom*
@@ -137,26 +139,76 @@ title: Publications
 
 ---
 
+## Technical Reports & Documentation 💻
+
+### Industry Reports
+
+**"Autonomous Navigation Systems for Planetary Surface Operations"**  
+*GMV Aerospace Technical Report* (Internal/Classified)  
+Contribution to mission planning documentation for European Space Agency projects.
+
+**"European Moon Rover System: Systems Engineering and Mission Analysis"**  
+*GMV Aerospace Consortium Report* (2024)  
+Comprehensive technical documentation for ESA lunar exploration programs.
+
+### Open Source Contributions
+
+**"Pololu Tic Driver Implementation for Linux Systems"**  
+[GitHub Repository Documentation](https://github.com/cristinaluna/pololu-tic-driver)  
+Complete technical documentation for stepper motor control in robotics applications.
+
+**"Genetic Algorithm-Based Map Fusion for Planetary Robotics"**  
+[GitHub Repository](https://github.com/cristinaluna/ga-based_mapfusion)  
+Implementation and documentation of multi-sensor map fusion algorithms.
+
+**"ROS2 Integration for Scout Mobile Platform"**  
+[GitHub Repository](https://github.com/cristinaluna/scout_ros2)  
+Enhanced ROS2 support package for autonomous mobile robotics.
+
+---
+
 ## Under Review & In Preparation 📝
 
 ### Submitted Articles
 
---
+**Luna, C.** (2025). "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana."  
+*Submitted to: 11º Congreso Internacional de Antropología AIBR*  
+*Status: Accepted for presentation, July 2025, Universidad de Cantabria*
 
+**Luna, C.** (2025). "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas."  
+*Submitted to: 11º Congreso Internacional de Antropología AIBR*  
+*Status: Accepted for presentation, July 2025, Universidad de Cantabria*
+
+**Abstract:** This article analyzes the emergence of alternative spatial imaginaries through the concept of social bremmsstrahlung, understood as symbolic "radiation" generated by frictions between dominant and subaltern narratives in space exploration. Through four months of digital ethnography with CosmoWomen during the Medusa Mission in a Colombian habitat (2024), the study documents how tensions between hegemonic space imaginaries and Latin American perspectives produce new meaning frameworks. The research reveals three manifestations of social bremmsstrahlung: transformation of imaginaries, reconfiguration of meanings, and technological cosmogenesis. The concept of "última pijamada en la Tierra" (last sleepover on Earth) emerges as a key metaphor where the girlie intertwines with analog performance, generating new ways of inhabiting outer space from historically marginalized positions.
 
 ### Articles in Preparation
 
-**Luna, C.** (2025). "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana."  
-*In preparation*  
+**Luna, C.** "WhatsApp como Tactical Timeline Decolonial: Infraestructuras de la Fricción en Misiones Espaciales Análogas."  
+*In preparation for: Journal of Digital Social Research*
 
-**Luna, C.** (2025). "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas."  
-*In preparation*  
+**Luna, C.** "Place-Making Planetario: Múltiples Martes y la Construcción Etnográfica del Espacio Exterior."  
+*In preparation for: Social Studies of Science*
 
-**Luna, C. et al.** (2025). "A Genetic Algorithm Approach to Map Fusion in Planetary Multi-Robot Systems."  
-*In preparation*  
+**Luna, C.** "Cosmogénesis Situada: Epistemologías Encarnadas en la Exploración Espacial desde el Sur Global."  
+*In preparation for: Science, Technology & Human Values*
 
-**Luna, C. et al.** (2025). "Quantitative Morphometric Analysis of Drainage Networks in Terra Cimmeria, mars: Statistical Evidence for Spatially Heterogeneous Fluvial Evolution and Structural Control."  
-*In preparation*  
+---
+
+## Book Chapters & Invited Contributions 📘
+
+### Forthcoming
+
+**Luna, C.** "Ensamblajes Gravitacionales y Place-Making Planetario: Una Etnografía de Misiones Análogas"  
+*In: The Routledge Handbook of Space Anthropology* (Invited, in preparation)  
+*Expected publication: 2025*
+
+**Luna, C.** "Analog Astronauts and the Performance of Alternative Space Futures"  
+*In: Human-Robot Interaction in Extreme Environments* (Invited, in preparation)  
+*Expected publication: 2026*
+
+**Luna, C.** "Cosmogénesis desde el Sur Global: Feminist Approaches to Planetary Habitability"  
+*In: Feminist Science and Technology Studies Reader* (Under consideration)  
+*Expected publication: 2026*
 
 ---
 
@@ -171,12 +223,47 @@ title: Publications
 
 ---
 
+## Grants & Funding 💰
+
+### Current Projects
+
+**"European Moon Rover System Pre-Phase A"**  
+**Funding Agency:** European Space Agency (ESA)  
+**Role:** Project Manager  
+**Period:** 2022-2024
+
+**"GALEON: Ground-based Autonomous Rover Demonstrator for Exploration"**  
+**Funding Agency:** Spanish Space Agency  
+**Role:** Project Manager  
+**Period:** 2024-2025
+
+**"DISTANT: Steering and Traction Actuation for Noxious Temperatures"**  
+**Funding Agency:** European Space Agency (ESA)  
+**Role:** Project Leader  
+**Period:** 2024-2026
+
+---
+
 ## Awards & Recognition 🏆
 
 ### Certifications
 - **Japanese Language Proficiency Test (JLPT N3)** - Japan Foundation (2022)
 - **IBM AI Engineering Specialization** - IBM/Coursera (Certificate: ZRSWC2CYR3PM)
 - **Mastering ROS2 Navigation Training** - The Construct (2022)
+
+---
+
+## Media Coverage & Public Engagement 📺
+
+### Media Appearances
+- **"Living on Mars: Lessons from Analog Missions"** - European Space Agency Podcast (2023)
+- **"The Future of Human-Robot Teams in Space"** - Tech & Space Magazine (2024)
+- **"Anthropology Beyond Earth"** - Science Communication Platform (2023)
+
+### Public Lectures & Outreach
+- **"Space Anthropology: Studying Humans Who Study Space"** - Universidad Complutense Madrid (2024)
+- **"Robots as Companions: Preparing for Life Beyond Earth"** - Madrid Science Week (2023)
+- **"From Earth to Mars: The Role of Simulation in Space Exploration"** - TEDx Event (2023)
 
 ---
 
