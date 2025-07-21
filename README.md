@@ -24,7 +24,7 @@ I'm a Planetary Robotics Project Manager at **GMV Aerospace** and a PhD candidat
 
 **Current status:** 🔭 Leading cutting-edge planetary robotics projects while ethnographically documenting how humans prepare to become spacefaring beings.
 
-**Academic profiles:** [ORCID](https://orcid.org/0000-0002-4781-1965) | [ResearchGate](https://www.researchgate.net/profile/Cristina-Luna-Santos) | [Web of Science](https://www.webofscience.com/wos/author/record/LVD-5164-2024) | [Scopus](http://www.scopus.com/inward/authorDetails.url?authorID=58722202700&partnerID=MN8TOARS)
+**Academic profiles:** [ORCID](https://orcid.org/0000-0002-4781-1965) | [ResearchGate](https://www.researchgate.net/profile/Cristina-Luna-10) | [Web of Science](https://www.webofscience.com/wos/author/record/LVD-5164-2024) | [Scopus](http://www.scopus.com/inward/authorDetails.url?authorID=58722202700&partnerID=MN8TOARS)
 
 ---
 
