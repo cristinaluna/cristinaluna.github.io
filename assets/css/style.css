@@ -3,33 +3,27 @@
 
 @import "{{ site.theme }}";
 
-/* Custom space-themed colors */
+/* Space robotics color palette */
 :root {
-  --space-dark: #0B0C10;
-  --space-blue: #1F2833;
-  --mars-orange: #C5302E;
-  --stellar-cyan: #66FCF1;
-  --nebula-purple: #5A67D8;
-  --cosmic-gold: #FFD700;
+  --deep-space: #0a0a0a;
+  --space-blue: #1a1a2e;
+  --mars-red: #cd5c5c;
+  --robot-cyan: #00ffff;
+  --stellar-gold: #ffd700;
+  --nebula-purple: #8a2be2;
+  --rover-orange: #ff6347;
+  --cosmic-white: #f0f8ff;
 }
 
-/* Override midnight theme background */
+/* Complete background override */
 body {
-  background: linear-gradient(135deg, var(--space-dark) 0%, var(--space-blue) 100%) !important;
+  background: linear-gradient(135deg, var(--deep-space) 0%, var(--space-blue) 50%, #16213e 100%) !important;
   background-attachment: fixed !important;
-  color: var(--stellar-cyan) !important;
-  min-height: 100vh !important;
-}
-
-/* Remove default midnight background */
-.wrapper {
-  background: rgba(11, 12, 16, 0.85) !important;
-  border-radius: 15px !important;
-  box-shadow: 0 10px 40px rgba(102, 252, 241, 0.2) !important;
-  backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(102, 252, 241, 0.3) !important;
-  margin: 20px auto !important;
-  padding: 20px !important;
+  color: var(--robot-cyan) !important;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Animated starfield background */
@@ -41,111 +35,210 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+    radial-gradient(2px 2px at 20px 30px, var(--cosmic-white), transparent),
     radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
-    radial-gradient(1px 1px at 90px 40px, #fff, transparent),
-    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent);
+    radial-gradient(1px 1px at 90px 40px, var(--stellar-gold), transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(0,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 160px 30px, rgba(255,99,71,0.8), transparent);
   background-repeat: repeat;
   background-size: 200px 100px;
   z-index: -1;
-  opacity: 0.3;
-  pointer-events: none;
+  opacity: 0.4;
+  animation: twinkle 3s ease-in-out infinite alternate;
 }
 
-/* Header with space gradient */
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 0.6; }
+}
+
+/* Header with space mission aesthetics */
 header {
-  background: linear-gradient(90deg, var(--mars-orange), var(--nebula-purple)) !important;
-  border-bottom: 2px solid var(--stellar-cyan) !important;
-  box-shadow: 0 4px 20px rgba(102, 252, 241, 0.3) !important;
+  background: linear-gradient(90deg, var(--mars-red), var(--nebula-purple), var(--space-blue)) !important;
+  border-bottom: 3px solid var(--robot-cyan) !important;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5) !important;
+  padding: 20px !important;
 }
 
-/* Override theme heading colors */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--cosmic-gold) !important;
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5) !important;
-}
-
-h1 {
+/* Title styling - space mission style */
+.project-name, h1 {
+  color: var(--stellar-gold) !important;
+  text-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.8),
+    0 0 20px rgba(255, 215, 0, 0.6),
+    0 0 30px rgba(255, 215, 0, 0.4) !important;
   font-size: 2.5rem !important;
-  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan)) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+}
+
+.project-tagline {
+  color: var(--robot-cyan) !important;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8) !important;
+  font-size: 1.2rem !important;
+  font-style: italic !important;
+}
+
+/* Override hacker green with space colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--stellar-gold) !important;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6) !important;
+  border-bottom: 2px solid var(--robot-cyan) !important;
+  padding-bottom: 5px !important;
 }
 
 /* Space-themed links */
 a {
-  color: var(--stellar-cyan) !important;
+  color: var(--robot-cyan) !important;
   text-decoration: none !important;
   transition: all 0.3s ease !important;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.5) !important;
 }
 
 a:hover {
-  color: var(--cosmic-gold) !important;
-  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8) !important;
+  color: var(--stellar-gold) !important;
+  text-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.8),
+    0 0 20px rgba(255, 215, 0, 0.6) !important;
   transform: translateY(-1px) !important;
 }
 
-/* Code blocks with space theme */
-code {
-  background: rgba(31, 40, 51, 0.8) !important;
-  color: var(--stellar-cyan) !important;
-  border: 1px solid var(--mars-orange) !important;
-  padding: 2px 6px !important;
-  border-radius: 4px !important;
+/* Navigation with robotic aesthetics */
+nav, .navigation {
+  background: rgba(26, 26, 46, 0.9) !important;
+  border: 2px solid var(--robot-cyan) !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  margin: 20px 0 !important;
 }
 
-pre {
-  background: rgba(11, 12, 16, 0.9) !important;
-  border: 1px solid var(--stellar-cyan) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2) !important;
-}
-
-/* Override text color */
-p, li, span {
-  color: var(--stellar-cyan) !important;
-}
-
-/* Navigation styling */
 nav a, .navigation a {
-  background: linear-gradient(45deg, var(--mars-orange), var(--nebula-purple)) !important;
-  padding: 8px 16px !important;
-  border-radius: 20px !important;
-  margin: 0 5px !important;
+  background: linear-gradient(45deg, var(--mars-red), var(--rover-orange)) !important;
+  color: var(--cosmic-white) !important;
+  padding: 10px 20px !important;
+  border-radius: 25px !important;
+  margin: 0 10px !important;
   text-transform: uppercase !important;
   font-weight: bold !important;
-  font-size: 0.9rem !important;
+  border: 2px solid var(--robot-cyan) !important;
   transition: all 0.3s ease !important;
   display: inline-block !important;
 }
 
 nav a:hover, .navigation a:hover {
-  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan)) !important;
-  transform: scale(1.05) !important;
-  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4) !important;
+  background: linear-gradient(45deg, var(--stellar-gold), var(--robot-cyan)) !important;
+  color: var(--deep-space) !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8) !important;
 }
 
-/* Remove duplicate title styling */
-.project-name {
-  display: none !important;
+/* Content wrapper with HUD-like appearance */
+.container, .wrapper, main {
+  background: rgba(10, 10, 10, 0.8) !important;
+  border: 2px solid var(--robot-cyan) !important;
+  border-radius: 15px !important;
+  margin: 20px auto !important;
+  padding: 30px !important;
+  box-shadow: 
+    0 0 30px rgba(0, 255, 255, 0.3),
+    inset 0 0 30px rgba(26, 26, 46, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+  max-width: 1200px !important;
 }
 
-.project-tagline {
-  display: none !important;
+/* Code blocks with robotic terminal style */
+pre, code {
+  background: rgba(0, 0, 0, 0.9) !important;
+  color: var(--robot-cyan) !important;
+  border: 1px solid var(--stellar-gold) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3) !important;
+  font-family: 'Courier New', monospace !important;
 }
 
-/* Custom emoji glow */
+pre::before {
+  content: '> SYSTEM TERMINAL';
+  display: block;
+  color: var(--stellar-gold);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Text override */
+p, li, span, div {
+  color: var(--cosmic-white) !important;
+  line-height: 1.6 !important;
+}
+
+/* Emoji and special effects */
 .emoji {
-  filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.8));
+  filter: drop-shadow(0 0 8px var(--stellar-gold));
 }
 
-/* Technical projects section */
-.technical-projects {
-  background: linear-gradient(135deg, rgba(31, 40, 51, 0.8), rgba(90, 103, 216, 0.1)) !important;
-  border: 1px solid var(--stellar-cyan) !important;
+/* Section dividers */
+hr {
+  border: none !important;
+  height: 2px !important;
+  background: linear-gradient(90deg, transparent, var(--robot-cyan), transparent) !important;
+  margin: 30px 0 !important;
+}
+
+/* Special robotics section styling */
+.technical-projects, section {
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.8), rgba(138, 43, 226, 0.1)) !important;
+  border: 2px solid var(--rover-orange) !important;
   border-radius: 12px !important;
-  padding: 20px !important;
-  margin: 20px 0 !important;
-  box-shadow: 0 8px 25px rgba(102, 252, 241, 0.2) !important;
+  padding: 25px !important;
+  margin: 25px 0 !important;
+  box-shadow: 0 0 25px rgba(255, 99, 71, 0.3) !important;
+}
+
+/* Mission status indicators */
+.status-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--robot-cyan);
+  box-shadow: 0 0 10px var(--robot-cyan);
+  animation: pulse 2s ease-in-out infinite;
+  margin-right: 10px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Footer with mission control aesthetics */
+footer {
+  background: linear-gradient(90deg, var(--deep-space), var(--space-blue)) !important;
+  border-top: 3px solid var(--mars-red) !important;
+  color: var(--robot-cyan) !important;
+  text-align: center !important;
+  padding: 25px !important;
+  margin-top: 50px !important;
+  box-shadow: 0 -5px 15px rgba(0, 255, 255, 0.3) !important;
+}
+
+/* View on GitHub button styling */
+.btn, .zip_download_link, .tar_download_link {
+  background: linear-gradient(45deg, var(--mars-red), var(--rover-orange)) !important;
+  color: var(--cosmic-white) !important;
+  border: 2px solid var(--robot-cyan) !important;
+  border-radius: 25px !important;
+  padding: 12px 24px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn:hover, .zip_download_link:hover, .tar_download_link:hover {
+  background: linear-gradient(45deg, var(--stellar-gold), var(--robot-cyan)) !important;
+  color: var(--deep-space) !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6) !important;
 }
