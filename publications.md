@@ -62,6 +62,8 @@ title: Publications
 *September 2025, Oviedo, España*
 - **Luna, C., et al.** "Geomorphological Characterisation of Drainage Networks in Terra Cimmeria: Paleohydrological Implications for the Transition to Nepenthes Mensae"
 
+### 2025 
+
 **11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
 *July 2025, Universidad de Cantabria, Santander, España*
 - **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
@@ -89,7 +91,6 @@ title: Publications
 **iSpaRo - International Conference on Space Robotics**  
 *June 2024, Luxembourg*
 - **Breadboarding the European Moon Rover System: Discussion and Results of the Analogue field Test Campaign**
-- **RAPID & FASTNAV Projects: High-Speed Semi-Autonomous Rovers Enabling High Return Planetary Missions**
 
 **Congres de Ingeniería Espacial 2024**  
 *June 2024, Madrid, Spain*
