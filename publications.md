@@ -91,8 +91,7 @@ title: Publications
 
 **iSpaRo - International Conference on Space Robotics**  
 *June 2024, Luxembourg*
-- **Breadboarding the European Moon Rover System: Discussion and Results of the Analogue field Test Campaign**
-- **RAPID & FASTNAV Projects: High-Speed Semi-Autonomous Rovers Enabling High Return Planetary Missions**
+- **Luna, C. et al.,** "Breadboarding the European Moon Rover System: Discussion and Results of the Analogue field Test Campaign"
 
 **Space Resources Week 2024**  
 *June 2024, Madrid, Spain*
