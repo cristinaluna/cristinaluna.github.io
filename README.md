@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Cristina Luna 🚀
-*Planetary Robotics | Off-Earth Anthropologist *
+*Planetary Robotics | Off-Earth Anthropologist*
 
 ---
 
