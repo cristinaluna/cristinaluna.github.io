@@ -3,10 +3,6 @@ layout: default
 title: Home
 ---
 
-# Cristina Luna 🚀
-*Planetary Robotics | Off-Earth Anthropologist*
-
----
 
 ## Navigation
 - [🏠 Home](index.md)
