@@ -13,11 +13,23 @@
   --cosmic-gold: #FFD700;
 }
 
-/* Space background gradient */
+/* Override midnight theme background */
 body {
-  background: linear-gradient(135deg, var(--space-dark) 0%, var(--space-blue) 100%);
-  background-attachment: fixed;
-  color: var(--stellar-cyan);
+  background: linear-gradient(135deg, var(--space-dark) 0%, var(--space-blue) 100%) !important;
+  background-attachment: fixed !important;
+  color: var(--stellar-cyan) !important;
+  min-height: 100vh !important;
+}
+
+/* Remove default midnight background */
+.wrapper {
+  background: rgba(11, 12, 16, 0.85) !important;
+  border-radius: 15px !important;
+  box-shadow: 0 10px 40px rgba(102, 252, 241, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(102, 252, 241, 0.3) !important;
+  margin: 20px auto !important;
+  padding: 20px !important;
 }
 
 /* Animated starfield background */
@@ -37,113 +49,103 @@ body::before {
   background-size: 200px 100px;
   z-index: -1;
   opacity: 0.3;
+  pointer-events: none;
 }
 
 /* Header with space gradient */
 header {
-  background: linear-gradient(90deg, var(--mars-orange), var(--nebula-purple));
-  border-bottom: 2px solid var(--stellar-cyan);
-  box-shadow: 0 4px 20px rgba(102, 252, 241, 0.3);
+  background: linear-gradient(90deg, var(--mars-orange), var(--nebula-purple)) !important;
+  border-bottom: 2px solid var(--stellar-cyan) !important;
+  box-shadow: 0 4px 20px rgba(102, 252, 241, 0.3) !important;
 }
 
-/* Glowing headings */
-h1, h2, h3 {
-  color: var(--cosmic-gold);
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+/* Override theme heading colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cosmic-gold) !important;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5) !important;
 }
 
 h1 {
-  font-size: 2.5rem;
-  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 2.5rem !important;
+  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
 }
 
 /* Space-themed links */
 a {
-  color: var(--stellar-cyan);
-  text-decoration: none;
-  transition: all 0.3s ease;
+  color: var(--stellar-cyan) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
 }
 
 a:hover {
-  color: var(--cosmic-gold);
-  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
-  transform: translateY(-1px);
+  color: var(--cosmic-gold) !important;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8) !important;
+  transform: translateY(-1px) !important;
 }
 
 /* Code blocks with space theme */
 code {
-  background: rgba(31, 40, 51, 0.8);
-  color: var(--stellar-cyan);
-  border: 1px solid var(--mars-orange);
-  padding: 2px 6px;
-  border-radius: 4px;
+  background: rgba(31, 40, 51, 0.8) !important;
+  color: var(--stellar-cyan) !important;
+  border: 1px solid var(--mars-orange) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
 }
 
 pre {
-  background: rgba(11, 12, 16, 0.9);
-  border: 1px solid var(--stellar-cyan);
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2);
+  background: rgba(11, 12, 16, 0.9) !important;
+  border: 1px solid var(--stellar-cyan) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2) !important;
 }
 
-/* Glowing emojis */
+/* Override text color */
+p, li, span {
+  color: var(--stellar-cyan) !important;
+}
+
+/* Navigation styling */
+nav a, .navigation a {
+  background: linear-gradient(45deg, var(--mars-orange), var(--nebula-purple)) !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  margin: 0 5px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.9rem !important;
+  transition: all 0.3s ease !important;
+  display: inline-block !important;
+}
+
+nav a:hover, .navigation a:hover {
+  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan)) !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4) !important;
+}
+
+/* Remove duplicate title styling */
+.project-name {
+  display: none !important;
+}
+
+.project-tagline {
+  display: none !important;
+}
+
+/* Custom emoji glow */
 .emoji {
   filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.8));
 }
 
-/* Special section for technical projects */
+/* Technical projects section */
 .technical-projects {
-  background: linear-gradient(135deg, rgba(31, 40, 51, 0.8), rgba(90, 103, 216, 0.1));
-  border: 1px solid var(--stellar-cyan);
-  border-radius: 12px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 8px 25px rgba(102, 252, 241, 0.2);
-}
-
-/* Hover effects for sections */
-.section:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(102, 252, 241, 0.3);
-  transition: all 0.3s ease;
-}
-
-/* Space navigation styling */
-nav a {
-  background: linear-gradient(45deg, var(--mars-orange), var(--nebula-purple));
-  padding: 8px 16px;
-  border-radius: 20px;
-  margin: 0 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-nav a:hover {
-  background: linear-gradient(45deg, var(--cosmic-gold), var(--stellar-cyan));
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
-}
-
-/* Main content wrapper */
-.wrapper {
-  background: rgba(11, 12, 16, 0.85);
-  border-radius: 15px;
-  box-shadow: 0 10px 40px rgba(102, 252, 241, 0.2);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(102, 252, 241, 0.3);
-}
-
-/* Space-themed footer */
-footer {
-  background: linear-gradient(90deg, var(--space-dark), var(--space-blue));
-  border-top: 2px solid var(--mars-orange);
-  color: var(--stellar-cyan);
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  background: linear-gradient(135deg, rgba(31, 40, 51, 0.8), rgba(90, 103, 216, 0.1)) !important;
+  border: 1px solid var(--stellar-cyan) !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  margin: 20px 0 !important;
+  box-shadow: 0 8px 25px rgba(102, 252, 241, 0.2) !important;
 }
