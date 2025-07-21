@@ -11,7 +11,7 @@ plugins:
 
 # Navigation menu
 header_pages:
-  - index.md
+  - readme.md
   - publications.md
 
 # Site metadata
