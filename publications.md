@@ -175,18 +175,6 @@ title: Publications
 
 ---
 
-## Editorial & Review Work ✍️
-
-### Editorial Positions
-- **Editorial Board Member** - *Ensamblajes: Revista de Antropología Predoctoral* (Current)
-
-### Peer Review Activities
-- **Journal of Future Robot Life** (2022-present)
-- **Antropología Experimental** (2022-present)
-
-
----
-
 ## Awards & Recognition 🏆
 
 ### Certifications
