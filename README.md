@@ -20,11 +20,17 @@ title: Home
 printf("Hello, GitHub.\n");
 ```
 
-I'm a Planetary Robotics Project Manager at **GMV Aerospace** and a PhD candidate in Space Anthropology at UNED. I bridge the technical and social dimensions of space exploration through my dual expertise in autonomous robotics systems and ethnographic research on analog missions. My work spans from leading international consortiums developing lunar and planetary rovers to conducting participant observation as an analog astronaut at HI-SEAS.
+I'm a **Planetary Robotics Project Manager** at GMV Aerospace by day and a **PhD candidate in Space Anthropology** by night (and weekends, and most weekday evenings, and sometimes during lunch breaks). My job is essentially teaching robots how to survive on Mars while simultaneously studying how humans pretend to be Martians on Earth. It's as wonderfully absurd as it sounds.
 
-**Current status:** 🔭 Leading cutting-edge planetary robotics projects while ethnographically documenting how humans prepare to become spacefaring beings.
+I spend my professional life making rovers smarter and my academic life making space exploration more thoughtful. Think of me as a translator between robots and anthropologists—two groups that surprisingly share a love for meticulous observation and an occasional inability to understand human social cues.
+
+**Current status:** 🔭 Leading cutting-edge planetary robotics projects while ethnographically documenting how humans prepare to become spacefaring beings. Also discovering that freeze-dried food tastes exactly the same whether you're pretending to be on Mars in Hawaii or actually managing rover missions from Madrid.
+
+**Fun fact:** I've been an analog astronaut at HI-SEAS, which means I've lived in a dome pretending Mars was outside, then spent months analyzing what it means to live in a dome pretending Mars is outside. Meta-levels of simulation are my specialty.
 
 **Academic profiles:** [ORCID](https://orcid.org/0000-0002-4781-1965) | [ResearchGate](https://www.researchgate.net/profile/Cristina-Luna-10) | [Web of Science](https://www.webofscience.com/wos/author/record/LVD-5164-2024) | [Scopus](http://www.scopus.com/inward/authorDetails.url?authorID=58722202700&partnerID=MN8TOARS)
+
+*Warning: May spontaneously explain why your Mars rover needs better social skills or how WhatsApp is secretly a decolonial space technology. Proceed with choccosoymilk.*
 
 ---
 
@@ -123,8 +129,9 @@ For a complete list of my academic work, research publications, conference prese
 **Recent highlights:**
 - PhD dissertation in progress on ensamblajes gravitacionales in analog missions
 - Multiple conference presentations on space anthropology and human-robot interaction
-- Technical documentation for open-source robotics libraries
-- Articles in preparation on bremmsstrahlung social and Latin American space imaginaries
+- Hydrographical analyses of Martian drainage basins
+- Articles in preparation on Outer Space Anthropology
+- New method on Map Fusion using GA!
 
 *Because sometimes you need receipts for all those late nights reading about space simulation and robot ethics...*
 
@@ -170,7 +177,7 @@ For a complete list of my academic work, research publications, conference prese
 - **Location:** Madrid, Spain 🇪🇸
 - **GitHub:** [@cristinaluna](https://github.com/cristinaluna)
 - **ORCID:** [0000-0002-4781-1965](https://orcid.org/0000-0002-4781-1965)
-- **ResearchGate:** [Cristina Luna Santos](https://www.researchgate.net/profile/Cristina-Luna-Santos)
+- **ResearchGate:** [Cristina Luna](https://www.researchgate.net/profile/Cristina-Luna-Santos)
 - **Web of Science:** [LVD-5164-2024](https://www.webofscience.com/wos/author/record/LVD-5164-2024)
 - **Scopus:** [58722202700](http://www.scopus.com/inward/authorDetails.url?authorID=58722202700&partnerID=MN8TOARS)
 - **Photography:** [@xrispx](https://instagram.com/xrispx) | [Flickr](https://flickr.com/photos/xrispx)
