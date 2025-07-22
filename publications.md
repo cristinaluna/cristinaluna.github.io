@@ -191,7 +191,7 @@ title: Publications
 - **Asociación de Antropólogos Iberoamericanos en Red (AIBR)**
 - **Instituto Madrileño de Antropología (IMA)**
 - **Red de Estudiantes de Antropología de Iberoamérica (READI)**
-- **IEEE Robotics and Automation Society**
+- **IEEE**
 
 ### Organizational Leadership
 - **Anthropology of Science and Technology Group Coordinator** - Instituto Madrileño de Antropología (2021-present)
