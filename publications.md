@@ -55,11 +55,6 @@ title: Publications
 
 ### 2025 (Accepted)
 
-**11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
-*July 2025, Universidad de Cantabria, Santander, España*
-- **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
-- **Luna, C.** "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas"
-
 **Advanced Space Technologies in Robotics and Automation (ASTRA 2025)**  
 *2025, Leiden, The Netherlands*
 - **Luna, C., et al.** "AI-Enabled Capabilities to Facilitate Next-Generation Rover Surface Operations"
@@ -69,6 +64,13 @@ title: Publications
 **Advances de la Geomorfología española 2025**  
 *2025, España*
 - **Luna, C., et al.** "Geomorphological Characterisation of Drainage Networks in Terra Cimmeria: Paleohydrological Implications for the Transition to Nepenthes Mensae"
+
+### 2025 
+  
+**11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
+*July 2025, Universidad de Cantabria, Santander, España*
+- **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
+- **Luna, C.** "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas"
 
 **Lunar and Planetary Science Congress**  
 *March 2025, The Woodlands, TX, USA*
