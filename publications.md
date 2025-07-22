@@ -69,7 +69,7 @@ title: Publications
   
 **11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
 *July 2025, Universidad de Cantabria, Santander, España*
-- **Luna, C.** "Ensamblajes Gravitacionales: Una Etnografía de una Misión Análoga Latinoamericana"
+- **Luna, C.** "Mediación tecnológica y perspectivas latinoamericanas en misiones espaciales análogas"
 - **Luna, C.** "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas"
 
 **Lunar and Planetary Science Congress**  
