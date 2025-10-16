@@ -110,6 +110,7 @@ Leading managerial and technical aspects of international robotics projects focu
 - **Spanish** (Native)
 - **English** (Professional proficiency)
 - **Japanese** (Intermediate - JLPT N3 certified)
+- **Chinese** (Beginner!)
 
 ### Creative Pursuits
 - **Photography** - Passionate about capturing space, technology, and analog mission environments
