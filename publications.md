@@ -53,8 +53,8 @@ title: Publications
 
 ## Conference Presentations 🎤
 
-### 2025 (Accepted)
-
+### 2025 
+  
 **Advanced Space Technologies in Robotics and Automation (ASTRA 2025)**  
 *2025, Leiden, The Netherlands*
 - **Luna, C., et al.** "AI-Enabled Capabilities to Facilitate Next-Generation Rover Surface Operations"
@@ -65,8 +65,6 @@ title: Publications
 *2025, España*
 - **Luna, C., et al.** "Geomorphological Characterisation of Drainage Networks in Terra Cimmeria: Paleohydrological Implications for the Transition to Nepenthes Mensae"
 
-### 2025 
-  
 **11º Congreso Internacional de Antropología AIBR - Expectativas e Incertidumbres**  
 *July 2025, Universidad de Cantabria, Santander, España*
 - **Luna, C.** "Mediación tecnológica y perspectivas latinoamericanas en misiones espaciales análogas"
@@ -146,7 +144,9 @@ title: Publications
 
 ### Submitted Articles
 
---
+
+**Luna, C. et al.** (2025). "A Genetic Algorithm Approach to Map Fusion in Planetary Multi-Robot Systems."  
+*In review*  
 
 
 ### Articles in Preparation
@@ -155,9 +155,6 @@ title: Publications
 *In preparation*  
 
 **Luna, C.** (2025). "Bremmsstrahlung social: radiación de frenado cultural en los imaginarios espaciales de mujeres latinoamericanas."  
-*In preparation*  
-
-**Luna, C. et al.** (2025). "A Genetic Algorithm Approach to Map Fusion in Planetary Multi-Robot Systems."  
 *In preparation*  
 
 **Luna, C. et al.** (2025). "Quantitative Morphometric Analysis of Drainage Networks in Terra Cimmeria, mars: Statistical Evidence for Spatially Heterogeneous Fluvial Evolution and Structural Control."  
@@ -214,4 +211,4 @@ title: Publications
 
 ---
 
-**Last updated:** July 2025 | **Next update:** As new publications emerge from the pipeline
+**Last updated:** October 2025 | **Next update:** As new publications emerge from the pipeline
